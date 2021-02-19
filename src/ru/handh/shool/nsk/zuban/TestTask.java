@@ -41,7 +41,7 @@ public class TestTask {
     static double[] fillingArray() {// Задаем длину массива с помощью рандома от 1 до 21, в дальнейшем заполняем массив на промежутки от 1 до 200
         Random random = new Random();
 
-        double[] mass = new double[random.nextInt(20 + 1)];
+        double[] mass = new double[random.nextInt(21) + 1];
 
         for (int i = 0; i < mass.length; i++) {
             mass[i] = Math.random() * 200;
